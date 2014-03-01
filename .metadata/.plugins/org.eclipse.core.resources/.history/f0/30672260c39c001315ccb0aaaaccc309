@@ -1,0 +1,22 @@
+import acm.graphics.GOval;
+import acm.program.GraphicsProgram;
+public class BallMoving extends GraphicsProgram {
+	
+	private double xVelocity;
+	private double yVelocity;
+	private GOval ball;
+	
+	private double gravity = 3.0;
+	
+	public void run() {
+		xVelocity = 5;
+		yVelocity = 0;
+		ball = new GOval(100, 100, 50, 50);
+		add(ball);
+		while (ball.getX() < 700) {
+			ball.move(xVelocity, yVelocity);
+			yVelocity += gravity;
+			pause(10);
+		}
+	}
+}

@@ -1,0 +1,7 @@
+package com.tonygwu.tutoring.primenumbers;
+
+public class ListPrimeNumbers {
+	public void listPrimeNumbers() {
+		
+	}
+}

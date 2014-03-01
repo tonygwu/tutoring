@@ -1,0 +1,23 @@
+package com.tonygwu.tutoring.primenumbers;
+
+import acm.program.ConsoleProgram;
+
+public class PrimeNumbers extends ConsoleProgram {
+	public void run() {
+		
+		int x = readInt("Please enter your number here: ");
+		int n = 2;
+		while (n < x) {
+			if (n % x == 0) {
+				println("Not prime");
+				n = x + 1;
+			} else {
+				n = n + 1;
+				if (n == 25) {
+					println("Prime");
+				}
+			}
+		}
+		
+	}
+}

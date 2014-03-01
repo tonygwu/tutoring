@@ -1,0 +1,12 @@
+package com.tonygwu.tutoring.primenumbers;
+
+public class ListPrimeNumbers {
+	
+	
+	public void listPrimeNumbers(int n) {
+		for (int i = 0)
+	
+	}
+	
+	
+}
