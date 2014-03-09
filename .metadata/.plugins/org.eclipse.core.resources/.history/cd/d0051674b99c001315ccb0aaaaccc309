@@ -1,5 +1,0 @@
-import acm.program.ConsoleProgram;
-
-public class CanDrive extends ConsoleProgram {
-
-}

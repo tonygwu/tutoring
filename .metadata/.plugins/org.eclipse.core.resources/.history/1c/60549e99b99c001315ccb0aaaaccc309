@@ -1,8 +1,0 @@
-import acm.program.ConsoleProgram;
-
-public class CanDrive extends ConsoleProgram {
-	public void run() {
-		String name = readLine("Enter your name: ");
-		String name = readInt("Enter your name: ");
-	}
-}
